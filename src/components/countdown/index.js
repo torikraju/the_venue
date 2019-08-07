@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Slide from 'react-reveal/Slide';
 
+import Item from './item';
+
 export default class extends Component {
     state = {
       deadLine: 'Dec, 16, 2019',
@@ -35,22 +37,10 @@ export default class extends Component {
           <div className="countdown_wrapper">
             <div className="countdown_top">Event starts in</div>
             <div className="countdown_bottom">
-              <div className="countdown_item">
-                <div className="countdown_time">{this.state.days}</div>
-                <div className="countdown_tag">Days</div>
-              </div>
-              <div className="countdown_item">
-                <div className="countdown_time">{this.state.hours}</div>
-                <div className="countdown_tag">Hours</div>
-              </div>
-              <div className="countdown_item">
-                <div className="countdown_time">{this.state.minutes}</div>
-                <div className="countdown_tag">Minutes</div>
-              </div>
-              <div className="countdown_item">
-                <div className="countdown_time">{this.state.seconds}</div>
-                <div className="countdown_tag">Seconds</div>
-              </div>
+              <Item tag="Days" value={this.state.days} />
+              <Item tag="Hours" value={this.state.hours} />
+              <Item tag="Minutes" value={this.state.minutes} />
+              <Item tag="Seconds" value={this.state.seconds} />
             </div>
           </div>
         </Slide>
