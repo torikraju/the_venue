@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19b99f7f-4424-4be3-b2e1-dac169bf8a22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/venueInfo/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/countdown/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/countdown/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565151522250</updated>
-      <workItem from="1565151523546" duration="9894000" />
+      <workItem from="1565151523546" duration="11274000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the Header">
       <created>1565152929401</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565160987558</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finishing countdown">
+      <created>1565162089592</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565162089592</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +133,7 @@
     <MESSAGE value="Finishing the Header" />
     <MESSAGE value="Slider section" />
     <MESSAGE value="Adding a countdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a countdown" />
+    <MESSAGE value="Finishing countdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing countdown" />
   </component>
 </project>
