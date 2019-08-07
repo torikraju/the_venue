@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19b99f7f-4424-4be3-b2e1-dac169bf8a22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/countdown/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/featured/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/countdown/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/countdown/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565151522250</updated>
-      <workItem from="1565151523546" duration="8856000" />
+      <workItem from="1565151523546" duration="9894000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the Header">
       <created>1565152929401</created>
@@ -94,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565160109266</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding a countdown">
+      <created>1565160987558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565160987558</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +124,7 @@
     <MESSAGE value="adding side sideDrawer" />
     <MESSAGE value="Finishing the Header" />
     <MESSAGE value="Slider section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slider section" />
+    <MESSAGE value="Adding a countdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a countdown" />
   </component>
 </project>
