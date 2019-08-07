@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19b99f7f-4424-4be3-b2e1-dac169bf8a22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/countdown/item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/highlights/description.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/highlights/discount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/highlights/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/venueInfo/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Utils/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/countdown/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/countdown/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/venueInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/venueInfo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/highlights/discount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/highlights/discount.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565151522250</updated>
-      <workItem from="1565151523546" duration="15463000" />
+      <workItem from="1565151523546" duration="16977000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the Header">
       <created>1565152929401</created>
@@ -121,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565163370209</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Highlight section">
+      <created>1565169167530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565169167530</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +150,7 @@
     <MESSAGE value="Adding a countdown" />
     <MESSAGE value="Finishing countdown" />
     <MESSAGE value="Venue INFO component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Venue INFO component" />
+    <MESSAGE value="Highlight section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Highlight section" />
   </component>
 </project>

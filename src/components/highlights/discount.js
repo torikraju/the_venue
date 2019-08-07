@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
 
+import Button from '../Utils/button';
+
 
 class Discount extends Component {
     state={
@@ -12,26 +14,20 @@ class Discount extends Component {
     // eslint-disable-next-line react/sort-comp
     percentage = () => {
       if (this.state.discountStart < this.state.discountEnd) {
-        // eslint-disable-next-line react/no-access-state-in-setstate
         const cachedState = { ...this.state };
         this.setState({ discountStart: cachedState.discountStart + 1 });
       }
     };
 
     componentDidUpdate() {
-      setTimeout(() => {
-        this.percentage();
-      }, 30);
+      setTimeout(() => this.percentage(), 30);
     }
 
     render() {
       return (
         <div className="center_wrapper">
           <div className="discount_wrapper">
-            <Fade
-              left
-              onReveal={() => this.percentage()}
-            >
+            <Fade left onReveal={this.percentage}>
               <div className="discount_porcentage">
                 <span>{this.state.discountStart}%</span>
                 <span>Off</span>
@@ -44,7 +40,12 @@ class Discount extends Component {
                 At imperdiet dui accumsan sit amet nulla. Feugiat in ante metus dictum.
                 Ac placerat vestibulum lectus mauris ultrices eros in cursus.
                 </p>
-                <div>Button</div>
+                <Button
+                  text="Purchase Tickets"
+                  background="#ffa800"
+                  color="#fffff"
+                  link="https://www.google.com/"
+                />
               </div>
             </Slide>
           </div>
