@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19b99f7f-4424-4be3-b2e1-dac169bf8a22" name="Default Changelist" comment="Button reusable component">
-      <change afterPath="$PROJECT_DIR$/src/components/pricing/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pricing/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pricing/priceBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+    <list default="true" id="19b99f7f-4424-4be3-b2e1-dac169bf8a22" name="Default Changelist" comment="Adding prices">
+      <change afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/location/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -67,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565151522250</updated>
-      <workItem from="1565151523546" duration="19975000" />
+      <workItem from="1565151523546" duration="21530000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the Header">
       <created>1565152929401</created>
@@ -132,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565171420290</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding prices">
+      <created>1565174337405</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565174337405</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +166,7 @@
     <MESSAGE value="Venue INFO component" />
     <MESSAGE value="Highlight section" />
     <MESSAGE value="Button reusable component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Button reusable component" />
+    <MESSAGE value="Adding prices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding prices" />
   </component>
 </project>
